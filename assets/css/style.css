@@ -9,12 +9,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #f3efb1;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #abad1d;
+  background: #FAED26;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #FAED26;
+  background:   #abad1d;
   color: #fff;
 }
 
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 25px 0;
   overflow: hidden;
 }
 
@@ -305,6 +305,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -340,6 +341,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -347,11 +349,14 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  
 }
 
 .facts .count-box {
   padding: 30px;
-  width: 100%;
+  /* width: 100%; */
+  
+  
 }
 
 .facts .count-box i {
@@ -377,6 +382,16 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #f6f8fc;
+}
+
+@media (max-width: 750px) {
+  .facts .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #f6f8fc;
+  }
 }
 
 .facts .count-box a {
@@ -439,6 +454,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #FAED26;
+  
   
 }
 
@@ -695,6 +711,7 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -753,6 +770,7 @@ section {
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   color:black;
+  text-align: justify;
 }
 
 .testimonials .testimonial-item p::after {
@@ -788,7 +806,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 70px;
 }
 
 .contact .info {
@@ -952,7 +970,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #abad1d;
+  background:   #FAED26;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -965,7 +983,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #FAED26;
+  background: #abad1d;
 }
 
 @-webkit-keyframes animate-loading {
