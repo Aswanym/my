@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 30px;
   z-index: 996;
   background: #FAED26;
   width: 40px;
@@ -1056,12 +1056,10 @@ section {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
-  position: fixed;
   left: 0;
   bottom: 0;
-  width: 270px;
-  z-index: 9999;
-  background: #0a0a0a;
+  height: 100px;
+  background: #000000;
 }
 
 #footer .copyright {
@@ -1075,10 +1073,10 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-  }
+  } */
 }
